@@ -6,7 +6,7 @@ export default function Button({ className, variant, children }:{ className: any
     }
     const pickedVariant = variants[variant as keyof typeof variants] || variants["outline-yellow"];
     return(
-        <a className={`fonts-semibold text-lg py-3 px-10 rounded-full inline-block ${pickedVariant}${addClassName}`}>
+        <a className={`fonts-semibold text-lg rounded-full inline-block ${pickedVariant}${addClassName}`}>
             {children}
         </a>
     );
