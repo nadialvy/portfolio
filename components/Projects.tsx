@@ -4,7 +4,7 @@ import Title from "./Title";
 
 export default function Projects(){
     return(
-        <section className="py-20 px-60">
+        <section className="py-20 px-60" id="project">
             <div className="container mx-auto">
                 <Title>Projects</Title>
                 <Paragraph> This page is under construction !!! All of the projects name are real, but not with the image</Paragraph>

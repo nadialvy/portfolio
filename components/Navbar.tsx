@@ -12,7 +12,7 @@ export default function Navbar(){
                 <Nav />
             </div>
             <div className="w-3/12 text-right">
-                <Button className="py-1 px-8" variant="outline-yellow">Contact</Button>
+                <Button href ="#contact" className="py-1 px-8" variant="outline-yellow">Contact</Button>
             </div>
         </div>
     );

@@ -3,7 +3,7 @@ import Title from "./Title";
 
 export default function Profile(){
     return(
-        <section className="py-24">
+        <section className="py-24" id="profile">
             <div className="container mx-auto">
                 <Title>Profile</Title>
                 <Paragraph>Get to know me briefly</Paragraph>

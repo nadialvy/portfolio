@@ -4,7 +4,7 @@ import Title from "./Title";
 
 export default function Skills(){
     return(
-        <section className="py-20 bg-primarygray px-16">
+        <section className="py-20 bg-primarygray px-16" id="skill">
             <div className="container mx-auto">
                 <Title>Skills</Title>
                 <Paragraph>Some of Technology Stack that I use.</Paragraph>

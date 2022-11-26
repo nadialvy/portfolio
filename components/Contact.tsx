@@ -6,7 +6,7 @@ import Title from "./Title";
 
 export default function Contact(){
     return(
-        <section className="container mx-auto p-14">
+        <section className="container mx-auto p-14" id="contact">
             <div className="container bg-primarygray flex rounded-lg">
                 <div className="w-6/12 px-14 border-r border-primarygray-200">
                     <div className="p-8"></div>

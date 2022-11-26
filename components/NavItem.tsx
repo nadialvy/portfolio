@@ -1,5 +1,5 @@
-export default function NavItem({ children }:{ children : any }){
+export default function NavItem({ children, href }:{ children : any, href : any }){
     return(
-        <li><a className="text-white text-lg text-opacity-60 hover:text-white transition">{children}</a></li>
+        <li><a href={href} className="text-white text-lg text-opacity-60 hover:text-white transition">{children}</a></li>
     )
 }
