@@ -26,7 +26,7 @@ export default function Hero(){
                     lg:mt-10
                     md:mt-8
                     sm:mt-12
-                    max-[380px]:mt-20
+                    mt-12
                 ">
                     <h1 className="
                         md:text-2xl
