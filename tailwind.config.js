@@ -21,6 +21,12 @@ module.exports = {
          "200" : "#E8E8FB",
          "300" : "#8787BA"
         },
+        red: {
+          "300" : "#EF3243"
+        },
+        green:{
+          "300" : "#0FDA94"
+        },
         yellow: {
           "50": "#ff100109",
           "100": "#fffdf0",
@@ -41,6 +47,9 @@ module.exports = {
       const utilities = {
         ".bg-hero": {
           "background-image": "url(/hero.png)",
+          "background-size": "cover",
+          "background-position": "bottom",
+          "background-repeat": "no-repeat"
         },
         "shadow-skill": {
           "box-shadow": "0px 15px 30px rgba(0, 0, 0, 0.1)",

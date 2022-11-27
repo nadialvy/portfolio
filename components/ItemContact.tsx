@@ -8,7 +8,7 @@ export default function ItemContact({ icon, title, children, className} : { icon
                 <div className="text-sm font-semibold">
                     {title}
                 </div>
-                <div className="text-lg font-semibold">
+                <div className="md:text-lg font-semibold">
                     {children}
                 </div>
             </div>

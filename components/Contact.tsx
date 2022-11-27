@@ -6,9 +6,22 @@ import Title from "./Title";
 
 export default function Contact(){
     return(
-        <section className="container mx-auto p-14" id="contact">
-            <div className="container bg-primarygray flex rounded-lg">
-                <div className="w-6/12 px-14 border-r border-primarygray-200">
+        <section className="
+            container mx-auto
+            2xl:p-14
+            xl:p-14
+            lg:p-14
+            sm:p-6
+            max-[380px]:p-4
+            " id="contact">
+            <div className="container bg-primarygray flex flex-wrap rounded-lg">
+                <div className="
+                    md:w-6/12 px-14
+                    md:px-6
+                    sm:px-4
+                    max-[380px]:px-6
+                    w-full
+                    md:border-r border-b border-primarygray-200">
                     <div className="p-8"></div>
 
                     <Title left>Contact</Title>
@@ -36,21 +49,21 @@ export default function Contact(){
                             children="nadialvy"
                         />
                     </a>
-                    <div className="p-8"></div>
+                    <div className="md:p-8 p-4"></div>
                 </div>
-                <div className="w-6/12">
-                    <div className="p-8"></div>
+                <div className="md:w-6/12 w-full px-10">
+                    <div className="p-8 md:p-1 sm:p-1 max-[380px]:p-0"></div>
 
-                    <form className="py-16 px-20">
-                        <div className="flex -mx-4">
-                            <div className="w-6/12 px-4">
+                    <form className="py-16 px-20 md:px-6 sm:px-4 max-[380px]:py-4 max-[380px]:px-0">
+                        <div className="flex flex-wrap -mx-4">
+                            <div className="lg:w-6/12 w-full px-4">
                                 <Field
                                     label="Name"
                                     value="name"
                                     type="text"
                                 />
                             </div>
-                            <div className="w-6/12 px-4">
+                            <div className="lg:w-6/12 w-full px-4">
                                 <Field
                                     label="Email"
                                     value="email"
