@@ -11,13 +11,15 @@ export default function Hero(){
             md:h-[500px]
             sm:h-[475px]
             max-[380px]:h-[370px]
-            pb-20" id="hero">
+            pb-20" id="hero"
+        >
             <div className="
                 container
                 mx-auto
                 2xl:px-16
                 xl:px-12
-                max-[380px]:px-10">
+                max-[380px]:px-10"
+            >
                 <Navbar />
                 <div className="
                     text-center
